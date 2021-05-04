@@ -16,7 +16,7 @@ const config = {
   export const createUserProfileDocument =  async ( userAuth, additionalData ) => {
       if(!userAuth) return;
 
-      const userRef = firestore.collection('User').doc('5rNS7KLKaH');
+      const userRef = firestore.collection('User').doc('5rNS7KLKaHMPHK5B8oP5');
        
       const snapShot = await userRef.get();
 
